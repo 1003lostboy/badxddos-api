@@ -3,8 +3,11 @@
 header("Content-Type: application/json");
 
 echo json_encode([
-    "status" => "online",
-    "user" => "mrlost10"
+    "status" => "active",
+    "username" => "mrlost10",
+    "expiry" => "2099-12-31",
+    "plan" => "ADMIN",
+    "active" => true
 ]);
 
 ?>
