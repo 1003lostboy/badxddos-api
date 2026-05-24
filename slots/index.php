@@ -3,8 +3,10 @@
 header("Content-Type: application/json");
 
 echo json_encode([
-    "slots" => 999,
-    "online" => 1
+    "activeSlots" => 999,
+    "maxSlots" => 999,
+    "onlineUsers" => 1,
+    "status" => "success"
 ]);
 
 ?>
