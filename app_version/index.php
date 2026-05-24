@@ -4,6 +4,7 @@ header("Content-Type: application/json");
 
 echo json_encode([
     "version" => "1.7",
+    "forceUpdate" => false,
     "status" => "success"
 ]);
 
